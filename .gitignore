@@ -1,2 +1,7 @@
 
 /.vscode
+
+LAB0_urdf
+*.zip
+LAB0_urdf.urdf
+/.venv

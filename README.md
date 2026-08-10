@@ -18,12 +18,45 @@ Python 3.10 or newer. Check with:
 python --version
 ```
 
-### 1. Install
-Tested on RTB 1.3.1 / numpy 2.5.1
+### 1. Setup Virtual Environment (Recommended)
 
-```
+To avoid library version conflicts, it is highly recommended to install all dependencies inside a virtual environment.
+
+**Step 1: Create the virtual environment**
+* Windows:
+  ```powershell
+  python -m venv .venv
+  ```
+* Ubuntu/Linux/macOS:
+  ```bash
+  python3 -m venv .venv
+  ```
+
+**Step 2: Activate the virtual environment**
+* Windows (PowerShell):
+  ```powershell
+  .venv\Scripts\Activate.ps1
+  ```
+* Windows (CMD):
+  ```cmd
+  .venv\Scripts\activate.bat
+  ```
+* Ubuntu/Linux/macOS:
+  ```bash
+  source .venv/bin/activate
+  ```
+
+Once activated, you should see `(.venv)` in your terminal prompt.
+
+### 2. Install Dependencies
+Ensure your virtual environment is active, then run:
+
+```powershell
 pip install -r requirements.txt
 ```
+
+*(Note for Windows users: If you encounter compilation errors for `swift-sim` during installation, make sure you have the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) installed with the "Desktop development with C++" workload).*
+
 
 ### 2. Run the verification script
 If you use Ubuntu, run:
