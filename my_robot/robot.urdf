@@ -8,7 +8,7 @@
     name="base_link">
     <inertial>
       <origin
-        xyz="0.00888631783719275 -0.184033872630811 0.0530987495333499"
+        xyz="0 0 -0.00016129"
         rpy="0 0 0" />
       <mass
         value="1.3695380474243" />
@@ -22,8 +22,8 @@
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="-0.17002715 -0.0709803 -0.0532600398559306"
+        rpy="0 0 1.918018211259047" />
       <geometry>
         <mesh
           filename="package://my_robot/meshes/base_link.STL" />
@@ -36,8 +36,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="-0.17002715 -0.0709803 -0.0532600398559306"
+        rpy="0 0 1.918018211259047" />
       <geometry>
         <mesh
           filename="package://my_robot/meshes/base_link.STL" />
@@ -88,8 +88,8 @@
     name="joint_B2L1"
     type="continuous">
     <origin
-      xyz="0.00888631783719275 -0.184033872630811 0.0532600398559306"
-      rpy="1.5707963267949 0 -0.347221884464147" />
+      xyz="0 0 0"
+      rpy="1.5707963267949 0 1.5707963267949" />
     <parent
       link="base_link" />
     <child
