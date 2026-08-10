@@ -58,7 +58,7 @@ pip install -r requirements.txt
 *(Note for Windows users: If you encounter compilation errors for `swift-sim` during installation, make sure you have the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) installed with the "Desktop development with C++" workload).*
 
 
-### 2. Run the verification script
+### 3. Run the verification script
 If you use Ubuntu, run:
 ```
 python verify_install.py
@@ -70,7 +70,8 @@ python swift_windows_fix.py
 python verify_install.py
 ```
 
-### 3. What you should see
+### 4. What you should see
+
 
 - Three `[ok]` lines printed in the terminal.
 - A browser tab opens with a **robot arm that moves** for a 20 seconds, then closes.
