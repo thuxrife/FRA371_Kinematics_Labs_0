@@ -208,4 +208,17 @@
       effort="0"
       velocity="0" />
   </joint>
+  <link
+    name="end_effector" />
+  <joint
+    name="end_effector_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Prismatic_link" />
+    <child
+      link="end_effector" />
+  </joint>
 </robot>
