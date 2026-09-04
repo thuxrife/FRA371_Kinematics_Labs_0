@@ -227,4 +227,5 @@
     <origin xyz="0 0 0.4" rpy="0 0 0"/>
     <parent link="joint_3_link"/>
     <child link="ee_link"/>
+  </joint>
 </robot>
