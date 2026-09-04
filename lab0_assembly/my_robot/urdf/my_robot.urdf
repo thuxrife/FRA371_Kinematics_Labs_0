@@ -218,13 +218,4 @@
       effort="0"
       velocity="0" />
   </joint>
-
-
-  <link name="ee_link">
-  </link>
-
-  <joint name="ee_joint" type="fixed">
-    <origin xyz="0 0 0.4" rpy="0 0 0"/>
-    <parent link="joint_3_link"/>
-    <child link="ee_link"/>
 </robot>
